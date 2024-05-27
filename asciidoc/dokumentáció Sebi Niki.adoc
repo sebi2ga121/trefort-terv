@@ -165,3 +165,5 @@ FTP
 
 WEB
 - hozzá van adva a trefort2.hu a 192.168.50.254-es ip címhez
+
+link:++..\code\switch 1.txt++[Switch 1]
