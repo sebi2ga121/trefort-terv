@@ -166,4 +166,46 @@ FTP
 WEB
 - hozzá van adva a trefort2.hu a 192.168.50.254-es ip címhez
 
+Topológia : 
+
+link:++..\pic\trefort fizikai kép.png++[Trefort fizikai topológia]
+
+
+Configurációk :
+
+Routerek:
+
+link:++..\code\router 1 config.txt++[Router 1]
+
+link:++..\code\router 2.txt++[router 1]
+
+Switchek:
+
 link:++..\code\switch 1.txt++[Switch 1]
+
+link:++..\code\switch 2.txt++[Switch 2]
+
+link:++..\code\switch 3.txt++[Switch 3]
+
+link:++..\code\switch 4.txt++[Switch 4]
+
+link:++..\code\switch 5.txt++[Switch 5]
+
+link:++..\code\switch 6.txt++[Switch 6]
+
+link:++..\code\switch 7.txt++[Switch 7]
+
+link:++..\code\switch 8.txt++[Switch 8]
+
+link:++..\code\switch 9.txt++[Switch 9]
+
+link:++..\code\switch 10.txt++[Switch 10]
+
+link:++..\code\switch 11.txt++[Switch 11]
+
+link:++..\code\switch 12.txt++[Switch 12]
+
+link:++..\code\switch 13.txt++[Switch 13]
+
+link:++..\code\switch 14.txt++[Switch 14]
+
