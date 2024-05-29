@@ -293,6 +293,25 @@ WEB
 
 link:++..\pic\trefort fizikai kép.png++[Trefort fizikai topológia]
 
+===== A épület:
+
+link:++..\pic\a épület földszint.drawio.svg++[földszint]
+
+
+link:++..\pic\a épület első emelet.drawio.svg++[első emelet]
+
+
+link:++..\pic\második emelet a épület.drawio.svg++[második emelet]
+
+===== B épület:
+
+link:++..\pic\földszint b épület.drawio.svg++[földtszint emelet]
+
+link:++..\pic\első emelet b épület.drawio.svg++[első emelet]
+
+link:++..\pic\második emelet b épület.drawio.svg++[második emelet]
+
+link:++..\pic\harmadik emelet teszt.drawio.svg++[harmadik emelet]
 
 ==== Configurációk :
 
