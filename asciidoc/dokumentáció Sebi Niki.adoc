@@ -133,7 +133,7 @@ Vlan + HSRP:
 
 - ha a router meghal akkor a második router fogja átvenni a szolgálatot.
 
-### switch 1
+==== switch 1
 
 Alapkonfiguráció
 - megkapta az S1 nevet
@@ -176,7 +176,7 @@ DAI:
 
 - minden Switchen beállítva a src-mac, dst-mac, ip amik tovább növelik a biztonságot
 
-### switch 2
+==== switch 2
 
 Alapkonfiguráció
 - megkapta az S1 nevet
@@ -221,7 +221,7 @@ DAI:
 - minden Switchen beállítva a src-mac, dst-mac, ip amik tovább növelik a biztonságot
 
 
-### switch 3-12
+==== switch 3-12
 
 Alapkonfiguráció
 - nevük S és a számozása
@@ -268,11 +268,11 @@ DAI:
 - src-mac, dst-mac, ip használata
 
 
-### acces point
+==== acces point
 Vlan 40
 
 
-### server 1
+==== server 1
 ip cím: 192.168.50.254
 DNS 
 - 192.168.50.254
@@ -281,7 +281,7 @@ Email
 - felhazsnálónév admin jelszó admin
 - domain cím : trefortszki.hu
 
-### server 2
+==== server 2
 ip cím: 192.168.50.253
 FTP
 - admin fiók: felhasználónév admin jelszó: admin
@@ -289,12 +289,12 @@ FTP
 WEB
 - hozzá van adva a trefort2.hu a 192.168.50.254-es ip címhez
 
-Topológia : 
+==== Topológia : 
 
 link:++..\pic\trefort fizikai kép.png++[Trefort fizikai topológia]
 
 
-Configurációk :
+==== Configurációk :
 
 Routerek:
 
