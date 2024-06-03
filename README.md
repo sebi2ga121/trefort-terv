@@ -1,2 +1,2 @@
 ﻿# trefort-terv
-publish v0.3
+publish v0.4
