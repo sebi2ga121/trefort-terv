@@ -320,7 +320,7 @@ image:++..\pic\harmadik emelet teszt.drawio.svg++[harmadik emelet]
 
 image:++..\pic\B épület rack szekrény.drawio.svg++[b épület rack szekrény]
 
-===== LOgikai:
+===== Logikai:
 
 image:++..\pic\logikai topológia .drawio.svg++[logikai topológia]
 
