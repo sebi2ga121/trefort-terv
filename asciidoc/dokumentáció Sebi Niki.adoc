@@ -6,15 +6,11 @@ Router:
 
 - 2 db
 
-
-
 Switch: 
 
 - Cisco CBS350-24T-4G-EU Managed 24-port GE, 4x1G SFP 
 
 - 14 db
-
-
 
 Access point:
 
@@ -22,15 +18,11 @@ Access point:
 
 - 6 db
 
-
-
 Server:
 
 - DELL PowerEdge R730 (16xSFF)
 
 - 2 db
-
-
 
 Számítógép:
 
@@ -38,11 +30,9 @@ Számítógép:
 
 - 194 db
 
+=== Router
 
-
-=== router
-
-==== első router :
+==== Első router :
 
 Alapkonfiguráció:
 - megkapja az R1 nevet
@@ -86,7 +76,7 @@ Routing:
 
 - a giga 0-ás porton csatlakozik fel mind két router az ISP-re. Erre megadtuk a kért statikus routingot ami keresei a 0.0.0.0 0.0.0.0 hálózatot
 
-==== második router :
+==== Második router :
 
 
 Alapkonfiguráció:
@@ -131,7 +121,7 @@ Routing:
 
 - a giga 0-ás porton csatlakozik fel mind két router az ISP-re. Erre megadtuk a kért statikus routingot ami keresei a 0.0.0.0 0.0.0.0 hálózatot
 
-==== switch 1
+==== Switch 1
 
 Alapkonfiguráció
 - megkapta az S1 nevet
@@ -175,7 +165,7 @@ DAI:
 
 - minden Switchen beállítva a src-mac, dst-mac, ip amik tovább növelik a biztonságot
 
-==== switch 2
+==== Switch 2
 
 Alapkonfiguráció
 - megkapta az S2 nevet
@@ -221,7 +211,7 @@ DAI:
 - minden Switchen beállítva a src-mac, dst-mac, ip amik tovább növelik a biztonságot
 
 
-==== switch 3-12
+==== Switch 3-12
 
 Alapkonfiguráció
 - nevük S és a számozása
@@ -268,29 +258,40 @@ DAI:
 
 - src-mac, dst-mac, ip használata
 
-==== switch 7-10
+==== Switch 7-10
 
 - ezek a switchek nem a géptermek gépeit szolgálják ki ezért a 10,20,40-es vlanokat szolgálják ki. Ezek felelősek a sima termekben található gépek, a nyomtatók és az access pointok kiszolgásáért.
 
-==== acces point
+==== Acces point
 
 - A 40-es vlant kapják meg az access pointok.
 
-==== server 1
-ip cím: 192.168.50.254
+==== Server 1
+
+-ip cím: 192.168.50.254
+
 DNS 
+
 - 192.168.50.254
+
 - hozzá van adva a trefort.hu a 192.168.50.254-es ip címhez
+
 Email
+
 - felhazsnálónév: admin jelszó: admin
+
 - domain cím: trefortszki.hu
 
 ==== server 2
-ip cím: 192.168.50.253
+
+-ip cím: 192.168.50.253
+
 FTP
+
 - admin fiók: felhasználónév: admin jelszó: admin
 
 WEB
+
 - hozzá van adva a trefort2.hu a 192.168.50.254-es ip címhez
 
 ==== Topológia : 
@@ -329,7 +330,7 @@ image:++..\pic\logikai topológia .drawio.svg++[logikai topológia]
 
 link:++..\code\router 1 config.txt++[Router 1]
 
-link:++..\code\router 2.txt++[router 1]
+link:++..\code\router 2.txt++[Router 2]
 
 === Switchek:
 
